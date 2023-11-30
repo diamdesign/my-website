@@ -10,8 +10,58 @@ body {
 }
 
 body {
+  font-size: 1.2rem;
+  font-family: monospace;
   background-image: url("playerone.jpg");
   background-size: cover;
   background-attachment: fixed;
   color: white;
+}
+
+.container {
+  position: absolute;
+  bottom: 100px;
+  left: 40px;
+  width: 50%;
+  min-width: 700px;
+}
+h1 {
+  font-size: 3rem;
+}
+
+ul {
+  margin-left: 40px;
+}
+
+p:first-of-type {
+  margin-top: 40px;
+}
+
+.avatar {
+  float: left;
+  margin-right: 20px;
+  width: 80px;
+  height: 80px;
+  border-radius: 300px;
+  overflow: hidden;
+  border: 4px solid white;
+}
+
+.avatar img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.user span {
+  color: gray;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 40px;
+  text-align: left;
+  font-size: 0.8rem;
 }
