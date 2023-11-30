@@ -29,8 +29,12 @@ h1 {
   font-size: 3rem;
 }
 
-ul {
-  margin-left: 40px;
+h2 {
+  font-size: 1.3rem;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  float: none;
+  clear: both;
 }
 
 p:first-of-type {
@@ -54,6 +58,31 @@ p:first-of-type {
 
 .user span {
   color: gray;
+}
+
+section ul {
+  list-style: none;
+  margin-left: 0px;
+  clear: both;
+  float: none;
+  margin-bottom: 40px;
+  display: block;
+}
+section ul li {
+  height: 30px;
+  float: left;
+}
+
+section ul li span {
+  font-size: 0.8rem;
+  padding: 0.3rem;
+  border-radius: 0.3rem;
+  margin-right: 5px;
+  background: darkslategray;
+}
+
+a {
+  color: gold;
 }
 
 footer {
